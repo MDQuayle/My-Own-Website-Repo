@@ -1,0 +1,30 @@
+body {
+    background-color: #30D5FF ;
+}
+h1 {
+    font-family: 'Girassol', cursive;
+    color: black;
+    text-align: center;
+    font-size: 100px;
+
+}
+
+img {
+    width: 25%;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 8px;
+    
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 15px;
+  }
+
+p {
+    color: black;
+    text-align: left;
+    font-size: 50px;
+
+}
