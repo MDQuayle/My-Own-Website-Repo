@@ -4,14 +4,14 @@ function rotatePigOne(){
 }
 function rotatePigTwo(){
     let img = document.getElementById('pigTwo');
-    img.style.transform = 'rotate(180deg)';
+    img.style.transform = 'rotate(90deg)';
 }
 function rotatePigThree(){
     let img = document.getElementById('pigThree');
-    img.style.transform = 'rotate(180deg)';
+    img.style.transform = 'rotate(270deg)';
 }
 
-function boldText(){
+function underlineText(){
     let text= document.getElementById('text');
-    text.style.textDecoration = 'underline'
+    text.style.textDecoration = 'underline';
 }
