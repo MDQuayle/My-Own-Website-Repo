@@ -15,3 +15,16 @@ function underlineText(){
     let text= document.getElementById('text');
     text.style.textDecoration = 'underline';
 }
+
+function rotatePigFour(){
+    let img = document.getElementById('pigFour');
+    img.style.transform = 'rotate(21deg)';
+}
+function rotatePigFive(){
+    let img = document.getElementById('pigFive');
+    img.style.transform = 'rotate(57deg)';
+}
+function rotatePigSix(){
+    let img = document.getElementById('pigSix');
+    img.style.transform = 'rotate(99deg)';
+}
