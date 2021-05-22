@@ -1,14 +1,14 @@
 function rotatePigOne(){
     let img = document.getElementById('pigOne');
-    img.style.transform = 'rotate(180deg)';
+    img.style.transform = 'rotate(140deg)';
 }
 function rotatePigTwo(){
     let img = document.getElementById('pigTwo');
-    img.style.transform = 'rotate(90deg)';
+    img.style.transform = 'rotate(42deg)';
 }
 function rotatePigThree(){
     let img = document.getElementById('pigThree');
-    img.style.transform = 'rotate(270deg)';
+    img.style.transform = 'rotate(78deg)';
 }
 
 function underlineText(){
@@ -22,9 +22,14 @@ function rotatePigFour(){
 }
 function rotatePigFive(){
     let img = document.getElementById('pigFive');
-    img.style.transform = 'rotate(57deg)';
+    img.style.transform = 'rotate(63deg)';
 }
 function rotatePigSix(){
     let img = document.getElementById('pigSix');
     img.style.transform = 'rotate(99deg)';
+}
+
+function rotateBat(){
+    let img = document.getElementById('bat');
+    img.style.transform = 'rotate(180deg)';
 }
